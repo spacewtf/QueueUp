@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA07AB3A15CD4DF10047C3BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AB3915CD4DF10047C3BA /* UIKit.framework */; };
+		EA07AB3C15CD4DF10047C3BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AB3B15CD4DF10047C3BA /* Foundation.framework */; };
+		EA07AB3E15CD4DF10047C3BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AB3D15CD4DF10047C3BA /* CoreGraphics.framework */; };
+		EA07AB4415CD4DF10047C3BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA07AB4215CD4DF10047C3BA /* InfoPlist.strings */; };
+		EA07AB4615CD4DF10047C3BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07AB4515CD4DF10047C3BA /* main.m */; };
+		EA07AB4A15CD4DF10047C3BA /* QueueUpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07AB4915CD4DF10047C3BA /* QueueUpAppDelegate.m */; };
+		EA07AB4D15CD4DF10047C3BA /* QueueUpFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07AB4C15CD4DF10047C3BA /* QueueUpFirstViewController.m */; };
+		EA07AB4F15CD4DF10047C3BA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = EA07AB4E15CD4DF10047C3BA /* first.png */; };
+		EA07AB5115CD4DF10047C3BA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA07AB5015CD4DF10047C3BA /* first@2x.png */; };
+		EA07AB5415CD4DF10047C3BA /* QueueUpSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07AB5315CD4DF10047C3BA /* QueueUpSecondViewController.m */; };
+		EA07AB5615CD4DF10047C3BA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = EA07AB5515CD4DF10047C3BA /* second.png */; };
+		EA07AB5815CD4DF10047C3BA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA07AB5715CD4DF10047C3BA /* second@2x.png */; };
+		EA07AB5B15CD4DF10047C3BA /* QueueUpFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA07AB5915CD4DF10047C3BA /* QueueUpFirstViewController.xib */; };
+		EA07AB5E15CD4DF20047C3BA /* QueueUpSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA07AB5C15CD4DF20047C3BA /* QueueUpSecondViewController.xib */; };
+		EA07AB6615CD4DF20047C3BA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AB6515CD4DF20047C3BA /* SenTestingKit.framework */; };
+		EA07AB6715CD4DF20047C3BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AB3915CD4DF10047C3BA /* UIKit.framework */; };
+		EA07AB6815CD4DF20047C3BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA07AB3B15CD4DF10047C3BA /* Foundation.framework */; };
+		EA07AB7015CD4DF20047C3BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA07AB6E15CD4DF20047C3BA /* InfoPlist.strings */; };
+		EA07AB7315CD4DF20047C3BA /* QueueUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07AB7215CD4DF20047C3BA /* QueueUpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA07AB6915CD4DF20047C3BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA07AB2C15CD4DF00047C3BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA07AB3415CD4DF10047C3BA;
+			remoteInfo = QueueUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA07AB3515CD4DF10047C3BA /* QueueUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueueUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07AB3915CD4DF10047C3BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA07AB3B15CD4DF10047C3BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA07AB3D15CD4DF10047C3BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA07AB4115CD4DF10047C3BA /* QueueUp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QueueUp-Info.plist"; sourceTree = "<group>"; };
+		EA07AB4315CD4DF10047C3BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA07AB4515CD4DF10047C3BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA07AB4715CD4DF10047C3BA /* QueueUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QueueUp-Prefix.pch"; sourceTree = "<group>"; };
+		EA07AB4815CD4DF10047C3BA /* QueueUpAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueUpAppDelegate.h; sourceTree = "<group>"; };
+		EA07AB4915CD4DF10047C3BA /* QueueUpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueUpAppDelegate.m; sourceTree = "<group>"; };
+		EA07AB4B15CD4DF10047C3BA /* QueueUpFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueUpFirstViewController.h; sourceTree = "<group>"; };
+		EA07AB4C15CD4DF10047C3BA /* QueueUpFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueUpFirstViewController.m; sourceTree = "<group>"; };
+		EA07AB4E15CD4DF10047C3BA /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		EA07AB5015CD4DF10047C3BA /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		EA07AB5215CD4DF10047C3BA /* QueueUpSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueUpSecondViewController.h; sourceTree = "<group>"; };
+		EA07AB5315CD4DF10047C3BA /* QueueUpSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueUpSecondViewController.m; sourceTree = "<group>"; };
+		EA07AB5515CD4DF10047C3BA /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		EA07AB5715CD4DF10047C3BA /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		EA07AB5A15CD4DF10047C3BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QueueUpFirstViewController.xib; sourceTree = "<group>"; };
+		EA07AB5D15CD4DF20047C3BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QueueUpSecondViewController.xib; sourceTree = "<group>"; };
+		EA07AB6415CD4DF20047C3BA /* QueueUpTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueUpTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07AB6515CD4DF20047C3BA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA07AB6D15CD4DF20047C3BA /* QueueUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QueueUpTests-Info.plist"; sourceTree = "<group>"; };
+		EA07AB6F15CD4DF20047C3BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA07AB7115CD4DF20047C3BA /* QueueUpTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueUpTests.h; sourceTree = "<group>"; };
+		EA07AB7215CD4DF20047C3BA /* QueueUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueUpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA07AB3215CD4DF10047C3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07AB3A15CD4DF10047C3BA /* UIKit.framework in Frameworks */,
+				EA07AB3C15CD4DF10047C3BA /* Foundation.framework in Frameworks */,
+				EA07AB3E15CD4DF10047C3BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07AB6015CD4DF20047C3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07AB6615CD4DF20047C3BA /* SenTestingKit.framework in Frameworks */,
+				EA07AB6715CD4DF20047C3BA /* UIKit.framework in Frameworks */,
+				EA07AB6815CD4DF20047C3BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA07AB2A15CD4DF00047C3BA = {
+			isa = PBXGroup;
+			children = (
+				EA07AB3F15CD4DF10047C3BA /* QueueUp */,
+				EA07AB6B15CD4DF20047C3BA /* QueueUpTests */,
+				EA07AB3815CD4DF10047C3BA /* Frameworks */,
+				EA07AB3615CD4DF10047C3BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA07AB3615CD4DF10047C3BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AB3515CD4DF10047C3BA /* QueueUp.app */,
+				EA07AB6415CD4DF20047C3BA /* QueueUpTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA07AB3815CD4DF10047C3BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AB3915CD4DF10047C3BA /* UIKit.framework */,
+				EA07AB3B15CD4DF10047C3BA /* Foundation.framework */,
+				EA07AB3D15CD4DF10047C3BA /* CoreGraphics.framework */,
+				EA07AB6515CD4DF20047C3BA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA07AB3F15CD4DF10047C3BA /* QueueUp */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AB4815CD4DF10047C3BA /* QueueUpAppDelegate.h */,
+				EA07AB4915CD4DF10047C3BA /* QueueUpAppDelegate.m */,
+				EA07AB4B15CD4DF10047C3BA /* QueueUpFirstViewController.h */,
+				EA07AB4C15CD4DF10047C3BA /* QueueUpFirstViewController.m */,
+				EA07AB4E15CD4DF10047C3BA /* first.png */,
+				EA07AB5015CD4DF10047C3BA /* first@2x.png */,
+				EA07AB5215CD4DF10047C3BA /* QueueUpSecondViewController.h */,
+				EA07AB5315CD4DF10047C3BA /* QueueUpSecondViewController.m */,
+				EA07AB5515CD4DF10047C3BA /* second.png */,
+				EA07AB5715CD4DF10047C3BA /* second@2x.png */,
+				EA07AB5915CD4DF10047C3BA /* QueueUpFirstViewController.xib */,
+				EA07AB5C15CD4DF20047C3BA /* QueueUpSecondViewController.xib */,
+				EA07AB4015CD4DF10047C3BA /* Supporting Files */,
+			);
+			path = QueueUp;
+			sourceTree = "<group>";
+		};
+		EA07AB4015CD4DF10047C3BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AB4115CD4DF10047C3BA /* QueueUp-Info.plist */,
+				EA07AB4215CD4DF10047C3BA /* InfoPlist.strings */,
+				EA07AB4515CD4DF10047C3BA /* main.m */,
+				EA07AB4715CD4DF10047C3BA /* QueueUp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA07AB6B15CD4DF20047C3BA /* QueueUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AB7115CD4DF20047C3BA /* QueueUpTests.h */,
+				EA07AB7215CD4DF20047C3BA /* QueueUpTests.m */,
+				EA07AB6C15CD4DF20047C3BA /* Supporting Files */,
+			);
+			path = QueueUpTests;
+			sourceTree = "<group>";
+		};
+		EA07AB6C15CD4DF20047C3BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA07AB6D15CD4DF20047C3BA /* QueueUpTests-Info.plist */,
+				EA07AB6E15CD4DF20047C3BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA07AB3415CD4DF10047C3BA /* QueueUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07AB7615CD4DF20047C3BA /* Build configuration list for PBXNativeTarget "QueueUp" */;
+			buildPhases = (
+				EA07AB3115CD4DF10047C3BA /* Sources */,
+				EA07AB3215CD4DF10047C3BA /* Frameworks */,
+				EA07AB3315CD4DF10047C3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QueueUp;
+			productName = QueueUp;
+			productReference = EA07AB3515CD4DF10047C3BA /* QueueUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA07AB6315CD4DF20047C3BA /* QueueUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07AB7915CD4DF20047C3BA /* Build configuration list for PBXNativeTarget "QueueUpTests" */;
+			buildPhases = (
+				EA07AB5F15CD4DF20047C3BA /* Sources */,
+				EA07AB6015CD4DF20047C3BA /* Frameworks */,
+				EA07AB6115CD4DF20047C3BA /* Resources */,
+				EA07AB6215CD4DF20047C3BA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA07AB6A15CD4DF20047C3BA /* PBXTargetDependency */,
+			);
+			name = QueueUpTests;
+			productName = QueueUpTests;
+			productReference = EA07AB6415CD4DF20047C3BA /* QueueUpTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA07AB2C15CD4DF00047C3BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QueueUp;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EA07AB2F15CD4DF00047C3BA /* Build configuration list for PBXProject "QueueUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA07AB2A15CD4DF00047C3BA;
+			productRefGroup = EA07AB3615CD4DF10047C3BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA07AB3415CD4DF10047C3BA /* QueueUp */,
+				EA07AB6315CD4DF20047C3BA /* QueueUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA07AB3315CD4DF10047C3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07AB4415CD4DF10047C3BA /* InfoPlist.strings in Resources */,
+				EA07AB4F15CD4DF10047C3BA /* first.png in Resources */,
+				EA07AB5115CD4DF10047C3BA /* first@2x.png in Resources */,
+				EA07AB5615CD4DF10047C3BA /* second.png in Resources */,
+				EA07AB5815CD4DF10047C3BA /* second@2x.png in Resources */,
+				EA07AB5B15CD4DF10047C3BA /* QueueUpFirstViewController.xib in Resources */,
+				EA07AB5E15CD4DF20047C3BA /* QueueUpSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07AB6115CD4DF20047C3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07AB7015CD4DF20047C3BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA07AB6215CD4DF20047C3BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA07AB3115CD4DF10047C3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07AB4615CD4DF10047C3BA /* main.m in Sources */,
+				EA07AB4A15CD4DF10047C3BA /* QueueUpAppDelegate.m in Sources */,
+				EA07AB4D15CD4DF10047C3BA /* QueueUpFirstViewController.m in Sources */,
+				EA07AB5415CD4DF10047C3BA /* QueueUpSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07AB5F15CD4DF20047C3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07AB7315CD4DF20047C3BA /* QueueUpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA07AB6A15CD4DF20047C3BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA07AB3415CD4DF10047C3BA /* QueueUp */;
+			targetProxy = EA07AB6915CD4DF20047C3BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA07AB4215CD4DF10047C3BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07AB4315CD4DF10047C3BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA07AB5915CD4DF10047C3BA /* QueueUpFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07AB5A15CD4DF10047C3BA /* en */,
+			);
+			name = QueueUpFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		EA07AB5C15CD4DF20047C3BA /* QueueUpSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07AB5D15CD4DF20047C3BA /* en */,
+			);
+			name = QueueUpSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		EA07AB6E15CD4DF20047C3BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07AB6F15CD4DF20047C3BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA07AB7415CD4DF20047C3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA07AB7515CD4DF20047C3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA07AB7715CD4DF20047C3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QueueUp/QueueUp-Prefix.pch";
+				INFOPLIST_FILE = "QueueUp/QueueUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA07AB7815CD4DF20047C3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QueueUp/QueueUp-Prefix.pch";
+				INFOPLIST_FILE = "QueueUp/QueueUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA07AB7A15CD4DF20047C3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QueueUp.app/QueueUp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QueueUp/QueueUp-Prefix.pch";
+				INFOPLIST_FILE = "QueueUpTests/QueueUpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EA07AB7B15CD4DF20047C3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QueueUp.app/QueueUp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QueueUp/QueueUp-Prefix.pch";
+				INFOPLIST_FILE = "QueueUpTests/QueueUpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA07AB2F15CD4DF00047C3BA /* Build configuration list for PBXProject "QueueUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07AB7415CD4DF20047C3BA /* Debug */,
+				EA07AB7515CD4DF20047C3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA07AB7615CD4DF20047C3BA /* Build configuration list for PBXNativeTarget "QueueUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07AB7715CD4DF20047C3BA /* Debug */,
+				EA07AB7815CD4DF20047C3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA07AB7915CD4DF20047C3BA /* Build configuration list for PBXNativeTarget "QueueUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07AB7A15CD4DF20047C3BA /* Debug */,
+				EA07AB7B15CD4DF20047C3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA07AB2C15CD4DF00047C3BA /* Project object */;
+}
